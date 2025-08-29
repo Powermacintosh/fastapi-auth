@@ -5,6 +5,7 @@
   /* #c2c3d0 #b7c3ce #51667A #9AA2C4*/
   --dark-background-color: #bac2e2;
   --dark-2-background-color: #bac2e2;
+  --dark-3-background-color: #c9d1f5;
   --dark-border-color: #3b4151;
   --dark-2-border-color: #3b3151;
 
@@ -8158,7 +8159,7 @@ body {
 .swagger-ui input[type="search"],
 .swagger-ui input[type="text"],
 .swagger-ui textarea {
-  background: var(--dark-background-color);
+  background: var(--dark-3-background-color);
   outline: none;
   border: 1px solid #3b4151;
   border-radius: 4px;
@@ -8173,13 +8174,13 @@ body {
 .swagger-ui input[type="text"].invalid,
 .swagger-ui textarea.invalid {
   animation: shake 0.4s 1;
-  background: #feebeb;
+  background: var(--dark-3-background-color);
   border-color: #f93e3e;
 }
 .swagger-ui input[disabled],
 .swagger-ui select[disabled],
 .swagger-ui textarea[disabled] {
-  background-color: #fafafa;
+  background-color: var(--dark-3-background-color);
   color: #888;
   cursor: not-allowed;
 }
@@ -8210,7 +8211,7 @@ body {
   }
 }
 .swagger-ui textarea {
-  background: hsla(0, 0%, 100%, 0.8);
+  background: var(--dark-3-background-color);
   border: none;
   border-radius: 4px;
   color: #3b4151;
@@ -8945,7 +8946,7 @@ body {
   min-width: 230px;
 }
 .swagger-ui .auth-container .errors {
-  background-color: #fee;
+  background-color: var(--dark-3-background-color);
   border-radius: 4px;
   color: red;
   color: #3b4151;
